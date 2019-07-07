@@ -14,9 +14,12 @@ int power(int A, int B)
 
 int main()
 {
-    int A=5, B=10;
+    int A, B;
     int answer = 1;
-    int i;
+
+    scanf("%d", &A);
+    scanf("%d", &B);
+
 
     answer = power(A, B);
     printf("%d", answer);
