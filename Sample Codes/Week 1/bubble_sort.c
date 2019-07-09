@@ -17,7 +17,7 @@ void bubble_sort(int *arr, int n)
     {
         for (q = arr; q < arr - i; q++)
         {
-            if (*q > *q+1) swap(q, q+1);
+            if (*q > *(q + 1)) swap(q, q + 1);
         }
     }
 }

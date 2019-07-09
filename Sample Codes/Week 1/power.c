@@ -6,7 +6,7 @@ int power(int A, int B)
 
     if (B == 0) return 1;
 
-    tmp = power(A, B/2);
+    tmp = power(A, B / 2);
 
     if (B % 2 == 0) return tmp * tmp;
     else return A * tmp * tmp;
