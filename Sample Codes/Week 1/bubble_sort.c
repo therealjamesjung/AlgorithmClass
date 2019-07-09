@@ -11,13 +11,13 @@ void swap(int *a, int *b)
 void bubble_sort(int *arr, int n)
 {
     int *p, *q;
-    int i
+    int i = 0;
 
     for (p = arr; p < arr + n; p++, i++)
     {
-        for (q = arr; q < arr - i; q++)
+        for (q = arr; q < arr + n - 1 - i; q++)
         {
-            if (*q > *(q + 1)) swap(q, q + 1);
+            if (*q > *(q + 1)) swap(q, (q + 1));
         }
     }
 }
