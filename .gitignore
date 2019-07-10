@@ -141,5 +141,3 @@ modules.xml
 # Sonarlint plugin
 
 # End of https://www.gitignore.io/api/clion,clion+all
-
-CMakeLists.txt
