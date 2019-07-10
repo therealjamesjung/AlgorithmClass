@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
 {
-    printf("cmd 에서 git push origin master 또는 지금 봐라 ");
+    printf("정재경 개 쳐맞아야함");
     return 0;
 }
