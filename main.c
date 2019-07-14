@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
 {
-    printf("test, git push origin master");
+    printf("Hello, World!");
     return 0;
 }
