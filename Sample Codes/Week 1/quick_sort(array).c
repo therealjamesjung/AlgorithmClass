@@ -11,15 +11,15 @@ void swap(int *a, int *b)
 
 void quick_sort(int *arr, int left, int right)
 {
-    int pivot = (left + right) / 2;
+    int pivot = arr[(left + right) / 2];
     int l = left, r = right;
 
     if (right - left < 1) return;
 
     while (l < r)
     {
-        while (arr[l] < arr[pivot]) l++;
-        while (arr[r] > arr[pivot]) r--;
+        while (arr[l] < pivot) l++;
+        while (arr[r] > pivot) r--;
 
         if (l <= r) swap(&arr[l++], &arr[r--]);
     }
