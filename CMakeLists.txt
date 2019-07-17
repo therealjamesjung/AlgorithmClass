@@ -3,4 +3,4 @@ project(algorithm_class C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(algorithm_class main.c)dd
+add_executable(algorithm_class main.c)
