@@ -1,3 +1,7 @@
+//
+// Created by front on 2019-07-18.
+//
+
 #include<stdio.h>
 typedef struct Node {
     struct Node *left;
