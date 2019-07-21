@@ -147,6 +147,7 @@ void up_heap(int *arr, int i) {
                 swap(arr, i, i / 2);
             up_heap(arr, i / 2);
         }
+
         if (i % 2 == 1) {
             if (abs(arr[i / 2] < abs(arr[i / 2 * 2]))) {
                 swap(arr, i / 2 * 2, i / 2);
