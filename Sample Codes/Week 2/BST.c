@@ -128,7 +128,7 @@ Node *delete(Node *root, Node *node)
         {
             node->parent->left_child = node->right_child;
         }
-        else if (root->parent->right_child != NULL && root->parent->right_child->data == node->data) // Root is right child of parent
+        else if (node->parent->right_child != NULL && node->parent->right_child->data == node->data) // Root is right child of parent
         {
             node->parent->right_child = node->right_child;
         }
