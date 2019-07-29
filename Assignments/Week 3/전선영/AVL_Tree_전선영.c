@@ -248,6 +248,7 @@ int main()
             else
             {
                 insert_node(node, a);
+                find_height_bfactor(node);
                 node = balance_node(node, NULL);
             }
         }
